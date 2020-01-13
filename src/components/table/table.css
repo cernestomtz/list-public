@@ -1,0 +1,33 @@
+table {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+table th small {
+    color: red;
+    font-size: 75%;
+}
+
+table a {
+    color: #0064bd;
+    text-decoration: underline;
+}
+
+table td small {
+    font-size: 75%;
+    color: #484848;
+}
+
+table th, table td {
+    text-align: center;
+}
+
+table th:first-child, table td:first-child {
+    text-align: left;
+}
+
+@media screen and (max-width: 746px){
+    table {
+        font-size: 12px;
+    }
+}
