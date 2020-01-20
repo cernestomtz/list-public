@@ -117,7 +117,7 @@ const Optional = {
 
 
 
-const PassportFees = () => (
+const Index = () => (
   <Layout>
     <SEO title="Home" />
     <h1>UNITED STATES PASSPORT FEES</h1>
@@ -152,4 +152,4 @@ const PassportFees = () => (
   </Layout>
 )
 
-export default PassportFees
+export default Index
