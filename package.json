@@ -34,7 +34,10 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && firebase deploy",
+    "dev": "node gatsby develop",
+    "commitAndDeploy": "git add . && git commit -n -m 'updates LOL' && git push && npm run deploy"
   },
   "repository": {
     "type": "git",
