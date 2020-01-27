@@ -14,29 +14,30 @@ export default () => {
       </Helmet>
       <section>
         <div className="container h-screen mx-auto px-4">
-          <h1 className="font-bold text-xl md:text-2xl mt-3 text-center">TSA Liquids Rule</h1>
+          <h1 className="font-bold text-xl md:text-2xl mt-3 text-center">TSA Regla de los líquidos</h1>
           <div className="w-full">
             <Paragraph
               title=""
-              text="You are allowed to bring a quart-sized bag of liquids, aerosols, gels, creams and pastes in your carry-on bag and through the checkpoint. These are limited to travel-sized containers that are 3.4 ounces (100 milliliters) or less per item. Placing these items in the small bag and separating from your carry-on baggage facilitates the screening process. Pack items that are in containers larger than 3.4 ounces or 100 milliliters in checked baggage.
+                text="Tiene permitido llevar una bolsa de un cuarto de galón de líquidos, aerosoles, geles, cremas y pastas en su equipaje de mano y pasar por el puesto de control. Estas bolsas estarán limitadas a contenedores de tamaño de viaje de 3.4 onzas (100 mililitros) por artículo. Coloque estos artículos por separado de su equipaje de mano en una bolsa pequeña para facilitar el proceso de revisión. Guarde los artículos que contengan más de 3.4 onzas o 100 mililitros en su equipaje documentado.
 
-Any liquid, aerosol, gel, cream or paste that alarms during screening will require additional screening."
+Cualquier liquido, aerosol, gel, crema o pasta que active las alarmas durante el proceso de revisión serán requeridas para una revisión adicional."
             />
             <Paragraph
-              title="Exemptions
+              title="Excepciones
 "
               text="<img src='/liquids.svg' />"
             />
             <Paragraph
-              title="Inbound International Flights
+              title="Vuelos internacionales entrantes
 
 "
-              text="You may carry duty free liquids in secure, tamper–evident bags, more than 3.4 oz or 100 ml in your carry-on bag if:
+              text="Puede llevar en su equipaje de mano líquidos mayores a 3.4 onzas o 100 ml libres de impuestos en bolsas seguras y prueba de manipulación si:
 
-<li>The duty free liquids were purchased internationally and you are traveling to the United States with a connecting flight.</li>
-<li>The liquids are packed in a transparent, secure, tamper-evident bag by the retailer and do not show signs of tampering when presented to TSA for screening.</li>
-<li>The original receipt for the liquids is present and the purchase was made within 48 hours.</li>
-<li>The items inside the secure, tamper-evident bags must be screened and cleared. Any item that alarms or is unable to be screened will not be permitted in your carry-on bag. We recommend packing all liquids, gels, and aerosols that are over 3.4 oz or 100 ml in your checked baggage, even if they are in a secure, tamper-evident bag.</li>"
+<li>Los líquidos libres de impuestos se compraron en un vuelo internacional y usted está viajando hacia los Estados Unidos con un vuelo de conexión.</li>
+<li>Los líquidos están empaquetados en una bolsa transparente, segura y a prueba de manipulaciones y estos no muestren señales de manipulación cuando sean presentadas ante la TSA para su revisión.</li>
+<li>Usted cuenta con el recibo original de la compra de los líquidos y la compra se realizó dentro de las 48 horas anteriores.</li>
+<li>
+Los artículos que se encuentran dentro de las bolsas seguras y a prueba de manipulación deben de ser de revisados y retirados. Cualquier artículo que alarme o no pueda ser revisado no será permitido en su equipaje de mano. Le recomendamos empacar los líquidos, geles y aerosoles mayores a 3.4 onzas o 100 ml en su equipaje documentado, incluso si estos se encuentran en una bolsa segura y a prueba de manipulación.</li>"
             />
             <Paragraph title="" text="" />
           </div>
