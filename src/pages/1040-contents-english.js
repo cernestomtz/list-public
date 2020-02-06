@@ -1,3 +1,4 @@
+
 import React from "react"
 
 const ReturnMenu = () => (
@@ -13,102 +14,73 @@ export default () => {
         <div className="my-4">
           <span className="anchor" id="2019-changes" />         
           <p>
-            <b>2019 Changes</b>
+            <b>Cambios del 2019</b>
           </p>
           <p>
-            • Form 1040 has been redesigned.
+            • El formulario 1040 ha sido rediseñado
           </p>
           <p>
-            • Form 1040-SR, a new form, is
-              available for use by taxpayers age 65
-              and older.
+            • Formulario 1040-SR, un nuevo formulario, esta disponible para contribuyentes de 65 años y mayores.
           </p>
           <p>
-            • These instructions cover both
-              Forms 1040 and 1040-SR.
-              For details on these and other
-              changes, see What’s New in these
-              instructions.
+            • Este manual de instructivo incluye amos formularios
+              Formulario 1040 y 1040-RS.
+              Para detalles en los mismos y otros cambios, vea la sección "Novedades" de este instructivo. 
           </p>
           <br/>
           <p>
-            <b>Future Developments</b>
+            <b>Futuros cambios</b>
           </p>
           <p>
-            See IRS.gov and IRS.gov/Forms, and for the latest information about developments related to Forms 1040 and
-            1040-SR and their instructions, such as legislation enacted after they were published, go to IRS.gov/Form1040.
+            Visite IRS.gov y IRS.gov/Forms para saber la última información sobre los cambios relativos al formulario 1040 y 1040-RS y sus instrucciones, así como la legislación aprobada después de ser publicada vaya al sitio IRS.gov/Form1040.
           </p>
           <br/>
 
           <p>
             <span className="anchor" id="helpful-hints" />
             <h1 className="border-b mb-1 text-2xl">
-              <a>Form 1040 and 1040-SR Helpful Hints</a>
+              <a>Consejos útiles para los formulario 1040 y 1040-RS</a>
               <ReturnMenu />
             </h1>
-              For 2019, you will use Form 1040 or, if you were born before January 2, 1955, you have the option to use new
-              Form 1040-SR.
-              You may only need to file Form 1040 or 1040-SR and none of the numbered schedules, Schedules 1 through
-              3. However, if your return is more complicated (for example, you claim certain deductions or credits or owe
-              additional taxes), you will need to complete one or more of the numbered schedules. Below is a general guide
-              to which schedule(s) you will need to file based on your circumstances. See the instructions for the schedules
-              for more information.
-              If you e-file your return, you generally won't notice much of a change and the software you use will generally
-              determine which schedules you need.
+              Para el 2019 usará el formulario 1040 o, si usted nació después del 2 de Enero de 1055 tiene la opción de usar el nuevo formulario 1040-RS.
+              Usted solo necesitará llenar el formulario 1040 o 1040-RS si se encuentra entre los listados 1 y 3. Sin embargo, si su devolución es más complicada (por ejemplo si usted está declarando una cierta cantidad de deducciones o créditos o si debe impuestos adicionales), usted tiene que completar una o más de los listados numerados. Debajo se encuentra una guiá general sobre que listado(s) necesita llenar basado en sus circunstancias. Para mayor información vea las instrucciones para los listados. 
+              Si usted llena eléctricamente su devolución, usted generalmente no notará muchos cambios y el software que usted utilice determinara que listado necesita.
           </p>
           <br/>
           <p>
-            <b>Schedule 1, Part I</b>
+            <b>Listado 1, Parte I</b>
           </p>
           <p>
-            Have additional income, such as business or farm income or
-            loss, unemployment compensation, prize or award money, or
-            gambling winnings.
-          </p><br/>
-
-          <p>
-            <b>Schedule 1, Part II</b>
-          </p>
-          <p>
-            Have any deductions to claim, such as student loan interest
-            deduction, self-employment tax, or educator expenses.
+            Tiene ingresos adicionales, como pueden ser ingresos o perdidas por negocios o granjas,  indemnizaciones por desempleo, premios o atribuciones en dinero, o ganancias de apuestas.
           </p><br/>
           
           <p>
-            <b>Schedule 2, Part I</b>
+            <b>Listado 2, Parte I</b>
           </p>
           <p>
-            Owe AMT or need to make an excess advance premium tax
-            credit repayment.
+            Debe un impuesto mínimo alternativo o necesita hacer un reembolso sobre un exceso de pago por adelantado de un impuesto sobre las primas.  
           </p><br/>
           
           <p>
-            <b>Schedule 2, Part II</b>
+            <b>Listado 2, Parte II</b>
           </p>
           <p>
-            Owe other taxes, such as self-employment tax, household
-            employment taxes, additional tax on IRAs or other qualified
-            retirement plans and tax-favored accounts.
+            Debe otros impuestos, como el impuesto al trabajador autónomo, el impuesto de los trabajadores domésticos, impuestos adicionales sobre la cuenta individual de retiro o otros planes de retiro calificados y otras cuentas con beneficios fiscales.
           </p><br/>
           
           <p>
-            <b>Schedule 3, Part I</b>
+            <b>Listado 3, Parte I</b>
           </p>
           <p>
-            Can claim a nonrefundable credit other than the child tax credit
-            or the credit for other dependents, such as the foreign tax credit,
-            education credits, or general business credit.
+            Puede solicitar créditos no reembolsables que no sea el crédito fiscal por hijos o el crédito fiscal por otros dependientes; como lo es el crédito fiscal extranjero, el crédito por educación o los créditos por negocios en general.
           </p><br/>
           
           <p>
-            <b>Schedule 3, Part II</b>
+            <b>Listado 3, Parte II</b>
           </p>
           <p>
-            Can claim a refundable credit other than the earned income
-            credit, American opportunity credit, or additional child tax credit,
-            such as the net premium tax credit or health coverage tax credit.
-            Have other payments, such as an amount paid with a request for
-            an extension to file or excess social security tax withheld. 
+            Puede solicitar créditos reembolsables que no sea el crédito por ingresos, crédito "Oportunidad Americana" o el crédito de impuesto por hijo adicional; como lo es el crédito por el impuesto la prima neta o el crédito por impuesto de cobertura médica.
+            Tiene otros pagos, como lo son la cantidad pagada con un requerimiento de una extensión por llenar o el exceso retenido por el impuesto de seguridad social.
           </p><br/>
         </div>
 
@@ -116,76 +88,61 @@ export default () => {
           <span id="taxpayer-advocate-service" className="anchor" />
           <h1 className="border-b mb-1 text-2xl">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>Taxpayer Advocate Service</a>
+            <a>Servicio de defensa al contribuyente</a>
             <ReturnMenu />
           </h1>
           <p>
-            <b>What is the Taxpayer Advocate Service?</b>
+            <b>¿Que es el servicio de defensa al contribuyente?</b>
           </p>
           <p>
-            The Taxpayer Advocate Service (TAS) is an independent organization within the Internal Revenue Service (IRS) that helps
-            taxpayers and protects taxpayer rights. Our job is to ensure that every taxpayer is treated fairly and that you know and
-            understand your rights under the Taxpayer Bill of Rights.
+            El servicio de defensa al contribuyente(TAS por sus siglas en ingles) es una organización independiente dentro del servicio de impuestos internos (IRS por sus siglas en ingles) que se encarta de ayudar a los contribuyentes y defender sus derechos. Nuestro trabajo es asegurarnos que cada contribuyente sea tratado de manera justa, y que sepa y entienda sus derechos bajo la carta de derechos del contribuyente.            
           </p><br/>
 
           <p>
-            <b>What can the Taxpayer Advocate Service do for you?</b>
+            <b>¿Qué puede hacer por ti el servicio de defensa al contribuyente?</b>
           </p>
           <p>
-            We can help you resolve problems that you can’t resolve with the IRS. And our service is free. If you qualify for our assistance,
-            you will be assigned to one advocate who will work with you throughout the process and will do everything possible to resolve
-            your issue.<br/>
-            TAS can help you if:<br/>
-            • Your problem is causing financial difficulty for you, your family, or your business.<br/>
-            • You face (or your business is facing) an immediate threat of adverse action.<br/>
-            • You’ve tried repeatedly to contact the IRS but no one has responded, or the IRS hasn’t responded by the date promised.
+            Podemos ayudarle con los problemas que usted no puede resolver con la IRS. Adicionalmente, nuestro servicio es gratuito. Si usted solicita nuestra ayuda, usted sera asignado con un miembro de nuestro servicios que hará todo lo posible para resolver su problema y que trabajará con usted a través del proceso de resolución de su dilema<br/>
+            TAS te puede ayudar si:<br/>
+            • Su problema le está causando dificultades financieras a usted, a su familia o a su negocio.<br/>
+            • Está atravesando (o su negocio está atravesando) una amenaza inmediata de acción lesiva.<br/>
+            • Usted está repetidamente tratado de contactar al IRS pero no ha obtenido una respuesta, o la IRS no le ha respondido en la fecha prevista.
           </p><br/>
 
           <p>
-            <b>How can you reach us?</b>
+            <b>¿Cómo puede contactarnos?</b>
           </p>
           <p>
-            We have offices in every state, the District of Columbia, and Puerto Rico. Your local advocate’s number is at
-            www.TaxpayerAdvocate.IRS.gov and in your local directory. You can also call us at 877-777-4778.
+            Tenemos oficinas en todos los estados, en el Distrito de Columbia, y en Puerto Rico. El número de su servicio local lo puede encontrar en www.TaxpayerAdvocate.IRS.gov y en su directorio local. También nos puede llamar al número 877-777-4778.
           </p><br/>
 
           <p>
-            <b>How can you learn about your taxpayer rights?</b>
+            <b>¿Cómo puede aprender sobre sus derechos como contribuyente?</b>
           </p>
           <p>
-            The Taxpayer Bill of Rights describes ten basic rights that all taxpayers have when dealing with the IRS. Our Tax Toolkit at
-            www.TaxpayerAdvocate.IRS.gov can help you understand what these rights mean to you and how they apply. These are your
-            rights. Know them. Use them.
+            La carta de derechos del contribuyente describe diez derechos básicos que todo contribuyente tiene cuando se encuentra tratando con la IRS. Nuestro juego de herramientas sobre los impuesto que puede encontrar en www.TaxpayerAdvocate.IRS.gov puede ayudarle a comprender que significan esos derechos para usted y como aplicarlos. Esos son sus derechos. Conózcalos. Úselos.
           </p><br/>
 
           <p>
-            <b>How else does the Taxpayer Advocate Service help taxpayers?</b>
+            <b>¿De que otra manera el servicio de defensa al contribuyente puede ayudar a los contribuyentes?</b>
           </p>
           <p>
-            TAS works to resolve large-scale problems that affect many taxpayers. If you know of one of these broad issues, please report it
-            to us at IRS.gov/SAMS. 
+            El TAS trabaja para resolver problemas a gran escala que afectan a muchos contribuyentes. Si usted conoce alguno de estos grandes problemas, por favor reportánoslo en IRS.gov/SAMS.
           </p><br/>
 
           <p>
-            <b>Low Income Taxpayer Clinics Help Taxpayers</b>
+            <b>Ayuda a contribuyentes de las clínicas de contribuyentes de bajo recursos </b>
           </p>
           <p>
-            Low Income Taxpayer Clinics (LITCs) are independent from the IRS. Some serve individuals whose income is below a certain
-            level and who need to resolve a tax problem. These clinics provide professional representation before the IRS or in court on
-            audits, appeals, tax collection disputes, and other issues for free or for a small fee. Some clinics provide information about
-            taxpayer rights and responsibilities in many different languages for individuals who speak English as a second language. For
-            more information, and to find a clinic near you, read the LITC page on IRS.gov/LITC or IRS Publication 4134, Low Income
-            Taxpayer Clinic List. You can also get this publication at your local IRS office or by calling 800-829-3676. 
+            Las clínicas de contribuyentes de bajos recursos (LITCs por sus siglas en ingles) con independientes de la IRS. Algunas sirven a personas cuyo ingreso está por debajo de cierto nivel y que necesitan resolver problemas con sus impuestos. Esas clínicas proveen representación profesional gratuita, o por una pequeña cuota, ante la IRS o en tribunales en: auditorias, apelaciones, controversias en la recaudación de impuestos, y otros problemas. Algunas clínicas proveen información en muchos idiomas distintos, a personas que hablan el Ingles como segunda lengua, sobre los derechos y responsabilidades del contribuyente. Para mayor información, y para encontrar una clínica cerca de usted, lea la pagina del LITC en IRS.gov/LITC o la publicación 4134 del IRS, listado de clínicas de contribuyentes de bajos recursos.
+            También puede tener está publicación en su oficina local del IRS o llamando al número 800-829-3676.
           </p><br/>
 
           <p>
-            <b>Taxpayer Advocacy Panel</b>
+            <b>Foro de la defensoría del contribuyente</b>
           </p>
           <p>
-            Have a suggestion for improving the IRS and do not know who to contact? The Taxpayer Advocacy Panel (TAP) is a diverse
-            group of citizen volunteers who listen to taxpayers, identify taxpayers’ issues, and make suggestions for improving IRS service
-            and customer satisfaction. The panel is demographically and geographically diverse, with at least one member from each state,
-            the District of Columbia, and Puerto Rico. Contact TAP at www.improveirs.org or 888-912-1227 (toll-free).
+            ¿Tiene alguna sugerencia para mejorar el IRS y no sabe como contactarnos? El Foro de la defensoría del contribuyente (TAP) tiene distintos grupos de voluntarios que escuchan a los contribuyentes, identifican los problemas de los contribuyentes y hace sugerencias para mejorar el servicio de la IRS y la satisfacción del usuario. El foro es demográficamente y geográficamente diverso, con al menos un miembro en cada estado, el Distrito de Columbia y Puerto Rico. Contacte al TAP en www.improveirs.org o al número 888-912-1227 (gratuitamente). 
           </p><br/>
 
         </div>
@@ -193,293 +150,197 @@ export default () => {
         <div>
           <span id="affordable-care-act" className="anchor" />
           <h1 className="border-b mb-1 text-2xl">
-            <a>Affordable Care Act</a>
+            <a>Acto de cuidado accesible</a>
             <ReturnMenu />
           </h1>
 
           <p>
-            <b>Requirement To Reconcile Advance Payments of the Premium Tax Credit</b>
+            <b>Requerimiento para conciliar el pago adelantado por crédito de impuesto sobre las primas</b>
           </p>
           <p>
-            The premium tax credit helps pay premiums for health insurance purchased from the Marketplace. Eligible
-            individuals may have advance payments of the premium tax credit made on their behalf directly to the insurance
-            company.<br/>
-            If you or a family member enrolled in health insurance through the Marketplace and advance payments of the
-            premium tax credit were made to your insurance company to reduce your monthly premium payment, you must attach
-            Form 8962 to your return to reconcile (compare) the advance payments with your premium tax credit for the year.<br/>
-            The Marketplace is required to send Form 1095-A by January 31, 2020, listing the advance payments and other
-            information you need to complete Form 8962.<br/>
-            1. You will need Form 1095-A from the Marketplace.<br/>
-            2. Complete Form 8962 to claim the credit and to reconcile your advance credit payments.<br/>
-            3. Include Form 8962 with your Form 1040, Form 1040-SR, or Form 1040-NR. (Don’t include Form 1095-A.)
+            El crédito de impuesto sobre la prima ayuda a pagar primas compradas en el mercado para seguro médico. Personas elegibles pueden tener directamente en su compañía de seguros un pago anticipado por los créditos de impuestos sobre las primas a su favor.<br/>
+            Si usted o algún miembro de su familia registrado en su seguro médico a través del mercado junto con el pago anticipado sobre los créditos de impuestos sobre primas hacen que su compañía de seguro reduzca su prima de pago mensual, usted debe de adjuntar el formulario 8962 a su devolución para conciliar (comparar) el pago por adelantado con su crédito por impuestos sobre primas del año.<br/>
+            El mercado es requerido de enviar el formulario 1095-A a más tardar le día 31 de enero del 2020, enlistando los pagos adelantados y otra información necesaria para completar el formulario 8962.<br/>
+            1. Usted completara el formulario 1095-A desde el mercado.<br/>
+            2. Completar el formulario 8962 para reclamar el crédito o conciliar su pago adelantado del crédito.<br/>
+            3. Incluir el formulario 8962 junto con el formulario 1040, formulario 1040-RS, o el formulario 1040-NR. (No incluya el formulario 1095-A).
           </p><br/>
 
           <p>
-            <b>Health Coverage Reporting</b>
+            <b>Reporte de cobertura médica</b>
           </p>
           <p>
-            If you or someone in your family was an employee in 2019, the employer may be required to send you Form
-            1095-C. Part II of Form 1095-C shows whether your employer offered you health insurance coverage and, if
-            so, information about the offer. You should receive Form 1095-C by early March 2020. This information may
-            be relevant if you purchased health insurance coverage for 2019 through the Health Insurance Marketplace
-            and wish to claim the premium tax credit on Schedule 3, line 9. However, you don’t need to wait to receive this
-            form to file your return. You may rely on other information received from your employer. If you don’t wish to claim
-            the premium tax credit for 2019, you don’t need the information in Part II of Form 1095-C. For more information
-            on who is eligible for the premium tax credit, see the Instructions for Form 8962.
+            Si usted o alguien en su familia fue trabajador en el 2019, el empleador puede requerirlo para que mande su formulario 1095-C. La parte II del formulario 1095-C muestra si su empleador le ofreció cobertura en su seguro médico, y si es el caso, muestra información sobre la oferta. Usted debe recibir el formulario 1095-C antes de marzo del 2020. Esta información puede ser relevante si se compro la cobertura de su seguro médico para el 2019 a través del del Mercado de Seguros Médicos y desea reclamar el crédito del impuesto sobre prima listado 3, linea 9. De igual manera, usted no necesita esperar a recibir este formulario para llenar su devolución. Usted puede confiar en información distinta por su empleador. si usted no desea reclamar el crédito por impuestos sobre primas para le 2019 no necesita la información contenida en la parte II del formulario 1095-C. Para mayor información sobre quien es elegible para el crédito por impuestos sobre primas, vea las instrucciones del formulario 8962.
           </p><br/>
           <p>
-            Reminder: Health care coverage. If you need health care coverage, go to www.HealthCare.gov to learn about
-            health insurance options for you and your family, how to buy health insurance, and how you might qualify to get
-            financial assistance to buy health insurance.
+            Recordatorio: Cobertura de seguro médico. SI usted necesita una cobertura de seguro médico visite el sitio www.HealthCare.gov para conocer más respecto de las opciones de seguro médico que existen para usted y su familia, como comprar un seguro médico y como puede calificar para obtener asistencia financiera para comprar un seguro médico.
           </p><br/>
         </div>
 
         <div className="my-4">
           <span className="anchor" id="what-is-new" />
           <h1 className="border-b mb-1 text-2xl">
-            <a>What's New</a>
+            <a>Novedades</a>
             <ReturnMenu />
           </h1>
           <p>
-            For information about any additional changes to the 2019 tax law or any other developments affecting Form 1040 or 1040-SR or the instructions, go to IRS.gov/
-            Form1040.
+            Para obtener información sobre cambios adicionales sobre la ley de impuestos del 2019 o el desarrollo de cualquier cambio en el formulario 1040 o 1040-RS o sus instrucciones, visite el sitio IRS.gov/Form1040. 
           </p><br/>
 
           <p>
-            <b>Form 1040-SR</b>
+            <b>Formulario 1040-SR</b>
             <br />
-              Form 1040-SR, U.S.
-              Tax Return for Seniors, has been introduced for 2019. You can use this form if
-              you were born before January 2, 1955.
-              The form generally mirrors Form 1040.
-              These instructions cover both Forms
-              1040 and 1040-SR.
+              Formulario 1040-RS, U. S. A.
+              Devolución de impuestos para adultos mayores (tercera edad), ha sido introducida para el ejercicio fiscal 2019. Usted puede usar este formulario si nació antes del 2 de enero de 1955.
+              El formulario generalmente sustituye el formulario 1040.
+              Este instructivo incluye ambos formularios, el 1040 y el 1040-RS.
           </p><br/>
 
           <p>
-            <b>Fewer numbered schedules</b>
+            <b>Menos listas numeradas</b>
             <br />
-              This year,
-              there are only 3 numbered schedules instead of 6. Schedules 2 and 4 were combined into Schedule 2 and it's where you
-              will report any additional taxes you may
-              owe. Schedules 3 and 5 were combined
-              into Schedule 3 and it’s where you will
-              report any credits that you didn't claim
-              on Form 1040 or 1040-SR.
+              Este año, hay tres listados numerado en lugar de seis. Listado dos y cuatro han sido combinados dentro del listado dos y es ahí donde usted tiene que reportar cualquier impuesto adicional que deba. Listado tres y cinco han sido combinados dentro del listado tres y es ahí donde donde usted reportará cualquier crédito que usted no reclame en el formulario 1040 o 1040-RS.
           </p><br/>
 
           <p>
-            <b>IRA and pension reporting</b>
+            <b>IRA y el reporte de pensiones</b>
             <br />
-              You will
-              now report your IRA distributions and
-              pensions and annuities on separate lines.
-              Use lines 4a and 4b on Form 1040 or
-              1040-SR to report IRA distributions and
-              the taxable amount. Use new lines 4c
-              and 4d to report pensions and annuities
-              and the taxable amount. See the instructions for Lines 4a and 4b and Lines 4c
-              and 4d, later.
+              Ahora su IRA reportara por lineas separadas sus distribuciones, pensiones y anualidades.  
+              Use las lineas 4a y 4b del formulario 1040 o 1040-RS para reportar su IRA y la distribución y su base gravable. Vea el instructivo para las lineas 4a y 4b, y posteriormente, las lineas 4c y 4d.
           </p><br/>
 
           <p>
-            <b>Capital gain or (loss) is now reported on line 6</b>
+            <b>Ahora tienen que ser reportadas las ganancias (o perdidas) de capital en la linea seis</b>
             <br />
-              In 2018, capital gain or (loss)
-              was reported on Schedule 1 (Form
-              1040), line 13. In 2019, it will be reported on Form 1040 or 1040-SR, line 6.
+              En 2018, las ganancias (o perdidas) de capital eran reportadas en listado 1 (formulario 1040), linea trece. En 2019, será reportado en el formulario 1040 o 1040-RS, linea seis.
           </p><br/>
 
           <p>
-            <b>Health care coverage shared responsibility payment</b>
+            <b>Responsabilidad de pago compartida en la cobertura de gastos médicos</b>
             <br />
-              For 2019 you no longer
-              need to either make a shared responsibility payment or file Form 8965 if you
-              don't have minimum essential health
-              care coverage for part or all of 2019.
-              The “Full-year health care coverage or
-              exempt” box has been removed from
-              Form 1040.
+              Para el 2019 usted ya no tiene que hacer una responsabilidad de pago ni que llenar el formulario 8965, si usted no tiene el la cobertura de seguro médico del mínimo esencial por una parte o por el total del 2019.
+              La casilla "Cobertura anual de seguro médico o su excepción" ha sido removida del formulario 1040.
           </p><br/>
 
           <p>
-            <b>Standard deduction amount increased</b>
+            <b>El importe de la deducción estándar ha aumentado</b>
             <br />
-              For 2019, the standard deduction amount has been increased for all
-              filers. The amounts are:<br/>
-              • Single or Married filing separately—$12,200.<br/>
-              • Married filing jointly or Qualifying widow(er)—$24,400.<br/>
-              • Head of household—$18,350.
+              Para el 2019, el importe de la deducción estándar ha incrementado para todos los contribuyentes. Los importes son:<br/>
+              • Soltero o casado solicitado por separado-$12,200.<br/>
+              • Casados solicitándolo en conjunto o viuda(o) elegible-$24,400.<br/>
+              • Jefe(a) de familia-$18,350.
           </p><br/>
 
           <p>
-            <b>Qualified business income deduction.</b>
+            <b>Deducción de ingresos para negocios elegibles.</b>
             <br />
-              The simplified worksheet for figuring
-              your qualified business income deduction is now Form 8995, Qualified Business Income Deduction Simplified Computation. If you don’t meet the
-              requirements to file Form 8995, use
-              Form 8995-A, Qualified Business Income Deduction. For more information,
-              see each form’s instructions.
+              La hoja de trabajo simplificada para calcular su deducción de ingresos para su negocio elegible es ahora el formulario 8995, calculo de deducción de ingresos para negocios elegibles. Si usted no reúne los requisitos para llenar el formulario 8995, use el formulario 8995-A, deducción de ingresos para negocios elegibles. Para mayor información vea las instrucciones de cada formulario.
           </p><br/>
 
           <p>
-            <b>Alternative minimum tax (AMT) exemption amount increased.</b>
+            <b>La cuota de excepción del impuesto mínimo alternativo (AMT por sus siglas en ingles) ha sido incrementada.</b>
             <br />
-              The AMT
-              exemption amount is increased to
-              $71,700 ($111,700 if married filing
-              jointly or qualifying widow(er); $55,850
-              if married filing separately). The income
-              levels at which the AMT exemption begins to phase out have increased to
-              $510,300 ($1,020,600 if married filing
-              jointly or qualifying widow(er)).
+              La cuota de excepción del ATM ha sido incrementada a $71,700 ($111,700 si es presentada por un matrimonio en conjunto o un(a) viudo(a) elegible; $55,850 si es llenado por un matrimonio por separado). El nivel de ingresos al cual la excepción del AMT empieza a eliminarse gradualmente ha sido incrementada a $510,300 ($1,020,600 si es solicitada por un matrimonio en conjunto o un(a) viudo(a) elegible).
           </p><br/>
 
           <p>
-            <b>Qualified opportunity investment.</b>
+            <b>Oportunidad de inversiones elegibles.</b>
             <br />
-              If
-              you held a qualified investment in a
-              qualified opportunity fund at any time
-              during the year, you must attach Form
-              8997, Initial and Annual Statement of
-              Qualified Opportunity Fund (QOF) Investments, to your return. For more information, see Form 8997 and its instructions.
+              Si usted tiene una inversión elegible para el fondo de oportunidades elegibles durante cualquier parte del año, usted debe adjuntar el formulario 8997, declaración inicial anual del fondo de oportunidades de inversiones elegibles (QOF por sus siglas en ingles), para sus devoluciones. Para mayor información vea el formulario 8997 y su instructivo.
           </p><br/>
 
           <p>
-            <b>Virtual currency.</b>
+            <b>Moneda virtual.</b>
             <br />
-              If, in 2019, you engaged in a transaction involving virtual
-              currency you will need to file Schedule
-              1. See the instructions for Schedule 1 for
-              more information.
+              Si en el 2019, usted se involucro en transacciones que involucran monedas virtuales usted necesita llenar el listado 1. Vea las instrucciones del listado 1 para mayor información.
           </p><br/>
 
           <p>
-            <b>Email address</b>
+            <b>Dirección de correo electrónico</b>
             <br />
-              An optional field for
-              your email address has been added to
-              Forms 1040 and 1040-SR
+              Un campo adicional para su dirección de correo electrónico ha sido añadido al formulario 1040 y 1040-RS
           </p><br/>
 
           <p>
-            <b>Medicaid waiver payments</b>
+            <b>Exención de pagos del Medicaid</b>
             <br />
-              Changes
-              have been made to how Medicaid waiver payments are treated for purposes of
-              the earned income credit. See the instructions for line 18a.
+              Se han realizado cambios a como serán tratadas las exenciones de pago del Medicaid con propósito de recibir ingresos por los créditos. Vea las instrucciones de la linea 18a.
           </p><br/>
 
           <p>
-            <b>Extended tax provisions.</b>
+            <b>Ampliación de las disposiciones fiscales.</b>
             <br />
-              Recent legislation extended certain tax benefits that
-              had expired at the end of 2017. These
-              tax benefits include the following.<br/>
-              • Tuition and fees deduction.<br/>
-              • Deduction for mortgage insurance
-              premiums.<br/>
-              • Nonbusiness energy property credit.<br/>
-              • Alternative fuel vehicle refueling
-              credit.<br/>
-              • Indian employment credit.
-              If you are eligible for one or more of
-              these benefits in 2019, you can claim
-              them on your 2019 return. If you are eligible for one or more of these benefits
-              for tax year 2018, you will need to file
-              an amended return, Form 1040-X, to
-              claim them. See IRS.gov/Form1040X for
-              more information about amending a tax
-              return.
+              La legislación reciente ha ampliado ciertos beneficios fiscales que expiraron en el final del 2017. Esos beneficios fiscales se incluyen a continuación.<br/>
+              • Reducción de las matriculas y cuotas.<br/>
+              • Deducciones por primas de seguros de hipotecas.<br/>
+              • Crédito de energía de propiedad no empresarial.<br/>
+              • Crédito de vehículos de recarga con combustibles alternativos.<br/>
+              • Crédito de empleados de la India.
+              Si en 2019 usted es elegible para uno o más de estos beneficios, puede reclamarlos en su devolución del 2019. Si usted es elegible para uno o más de estos beneficios en el año fiscal 2018, usted necesita llenar una devolución corregida, formulario 1040-X, para poder reclamarlos. Visite IRS.gov/Form1040X para mayor información sobre la corrección en su devolución de impuestos.
           </p><br/>
 
           <p>
-            <b>Disaster tax relief.</b>
+            <b>Alivio tributario en situaciones de desastre.</b>
             <br />
-              Disaster tax relief
-              was enacted for those impacted by certain federally declared disasters. The tax
-              benefits provided by this relief include
-              the following.<br/>
-              • An increased standard deduction
-              based on your qualified disaster losses.
-              See the instructions for line 9 and the Instructions for Schedule A for information on qualifying for and figuring the
-              increased standard deduction.<br/>
-              • Election to use your 2018 earned
-              income to figure your 2019 earned income credit. See the instructions for
-              line 18a for more information on this
-              election.<br/>
-              • Election to use your 2018 earned
-              income to figure your 2019 additional
-              child tax credit. See the instructions for
-              line 18b and the Instructions for Schedule 8812 for more information on this
-              election.
+              El alivio tributario en situaciones de desastre fue decretado para ciertos desastres declarados por la federación. Los beneficios fiscales ofrecidos por esta ayuda incluyen incluye los siguientes.<br/>
+              • Un incremento en el estándar de deducciones basado en la elegibilidad de la perdida por el desastre.
+              Vea las instrucciones para la linea 9 y las instrucciones para el listado A para información sobre la elegibilidad y el calculo del incremento en el estándar de la deducción.<br/>
+              • Elección de usar su ingreso ganado en 2018 para calcular su crédito sobre el ingreso ganado del 2019. Vea las instrucciones para la linea 18a para mayor información sobre esta elección.<br/>
+              • Elección de usar su ingreso ganado en 2018 para calcular su crédito del impuesto por hijo adicional para el ejercicio 2019. Vea las instrucciones para la linea 18b y las instrucciones para el listado 8812 para mayor información sobre esta elección.
           </p><br/>
 
         </div>
         <div className="my-4">
           <span className="anchor" id="free-software-options" />
           <h1 className="text-2xl">
-            <a>Free Software Options for Doing Your Taxes</a>
+            <a>Opciones de software gratuitos para hacer su declaración de impuestos</a>
             <ReturnMenu />
           </h1>
 
           <p>
-            <b>Why have 49 million Americans used Free File?</b>
+            <b>¿Por qué 49 millones de americanos usaron el software "Free File"</b>
             <br />
-              • Security—Free File uses the latest encryption technology to safeguard your information.<br />
-              • Flexible Payments—File early; pay by April 15, 2020 (for most people).<br />
-              • Greater Accuracy—Fewer errors mean faster processing.<br />
-              • Quick Receipt—Get an acknowledgment that your return was received and accepted.<br />
-              • Go Green—Reduce the amount of paper used.<br />
-              • It’s Free—through IRS.gov/FreeFile.<br />
-              • Faster Refunds—Join the eight in 10 taxpayers who get their refunds faster by using
-              direct deposit and e-file.
+              • El software utiliza la ultima tecnología en encriptación para guardar de manera segura tu información.<br />
+              • Solicitudes tempranas de pago flexible; a pagar para el 15 de abril del 2020 (para la mayoría de las personas).<br />
+              • Mayor veracidad y menores errores significa un procesamiento más rápido.<br />
+              • Un reconocimiento de rápida entrega-recepción de que su solicitud de devolución ha sido recibida y aceptada. <br />
+              • Sea ecológico y reduzca la cantidad de papel que usa.<br />
+              • Es gratuito a través de IRS.gov/FreeFile.<br />
+              • Rápido reintegro y deposito; ocho de cada diez contribuyentes que obtienen de manera más rápido su reintegro por usar la presentación directa y el llenado electrónico.
           </p><br/>
 
           <p>
-            <b>Do Your Taxes for Free</b>
+            <b>Haga su declaración de impuestos gratis</b>
             <br />
-              If your adjusted gross income was $69,000 or less in 2019, you can use free tax software to prepare and e-file your tax return.
-              Earned more? Use Free File Fillable Forms.
-              Free File. This public–private partnership, between the IRS and tax software providers, makes approximately a dozen brand
-              name commercial software products and e-file available for free. Seventy percent of the nation’s taxpayers are eligible.
-              Just visit IRS.gov/FreeFile for details. Free File combines all the benefits of e-file and easy-to-use software at no cost. Guided
-              questions will help ensure you get all the tax credits and deductions you are due. It’s fast, safe, and free.
-              You can review each software provider’s criteria for free usage or use an online tool to find which free software products match
-              your situation. Some software providers offer state tax return preparation for free.
-              Free File Fillable Forms. The IRS offers electronic versions of IRS paper forms that also can be e-filed for free. Free File
-              Fillable Forms is best for people experienced in preparing their own tax returns. There are no income limitations. Free File
-              Fillable Forms does basic math calculations. It supports only federal tax forms.
+              Si usted tuvo durante el 2019 un ingreso bruto de $69,000 o menor,usted puede usar el software "Free tax" para preparar y llenar eléctricamente su devolución de impuestos.
+              ¿Tuvo ingresos mayores? Llene de manera gratuita los formularios rellenables.
+              "Free File". Esta asociación publico-privada, entre el IRS y el proveedor de software privado, hace aproximadamente una docena de productos de software de nombre comercial y archivos electrónicos de manera gratuita.
+              Setenta por ciento de los contribuyentes del país son elegibles.
+              Para más detalles solo visite el sitio IRS.gov/FreeFile."Free File" combina sin costo para usted todos los beneficios de los archivos electrónicos en un software de manera fácil de usar. Las preguntas guiadas ayudaran a asegurarse de que usted obtendrá todos los créditos y deducciones que merece. Es rápido, seguro y gratuito.
+              Usted puede revisar el criterio de los proveedores de manera gratuita.
+              Usted puede revisar el criterio del proveedor para su uso gratuito o usar la herramienta en linea para encontrar cual software gratuito se adecua mejor a su situación. Algunos proveedores de software ofrecen la preparación de devoluciones de impuestos estatales de manera gratuita.
+              Archivos gratuitos de formularios rellenables. El ISR ofrece versiones electrónicas de los formularios de papel del ISR que también pueden ser llenados de manera electrónica gratis. Los archivos gratuitos de formularios rellenables son la mejor opción para personas experimentadas que están preparando su devolución de impuestos ellos mismos. No existen limitaciones de ingreso. Los archivos gratuitos de formularios rellenables básicamente hacen cálculos matemáticos. Solo respaldan formularios federales de impuestos.
           </p><br/>
 
           <p>
-            <b>Free Tax Help Available Nationwide</b>
+            <b>"Free tax help" esta disponible en toda la nación</b>
             <br />
-              Volunteers are available in communities nationwide providing free tax assistance to low-to-moderate income (generally under
-              $56,000 in adjusted gross income) and elderly taxpayers (age 60 and older). At selected sites, taxpayers can input and
-              electronically file their own tax return with the assistance of an IRS-certified volunteer.
-              See How To Get Tax Help near the end of these instructions for additional information or visit IRS.gov (Keyword: VITA) for a
-              VITA/TCE site near you!
+              Existen voluntarios disponibles en todas las comunidades de la nación que proveen ayuda fiscal gratuita para personas con ingresos bajos y medios (generalmente debajo de $56,000 en ingreso bruto ajustado) y contribuyentes de la tercera edad (sesenta años cumplidos y mayores). En ubicaciones especificas, los contribuyentes pueden presentar de manera autónoma y electrónica sus propias devoluciones de impuestos con la ayuda de un voluntario certificado por la ISR.
+              Vea como puede obtener ayuda fiscal de manera cercana al final de las instrucciones para información adicional o visite el sitio IRS.gov (Keyword: VITA) para encontrar una locación cerca de usted.
           </p><br/>
 
           <p>
-            <b>Make your tax payments electronically—it’s easy.</b>
+            <b>Hacer el pago de sus impuestos de manera electrónica es fácil.</b>
             <br />
-              You can make electronic payments online, by phone, or from a mobile device. Paying electronically is
-              safe and secure. The IRS uses the latest encryption technology and doesn’t store the bank account
-              number you use to submit your payment. When you use any of the IRS electronic payment options, it
-              puts you in control of paying your tax bill and gives you peace of mind. You determine the payment
-              date, and you will receive an immediate confirmation from the IRS. It’s easy, secure, and much quicker
-              than mailing in a check or money order. Go to IRS.gov/Payments to see all your electronic payment
-              options.
+              Usted puede hacer sus pagos electrónicos en linea, por teléfono o por un teléfono celular. Pagar de manera electrónica es seguro y fiable. La IRS utiliza la ultima tecnología en encriptación y no almacena los datos del número de su cuenta bancaria para enviar su pago. Cuando usted utiliza alguna de las opciones de pago electrotecnia de la IRS, usted obtiene el control de sus pagos de impuestos y le da una paz mental. Usted determina la fecha de pago, y recibe de manera inmediata una confirmación de la IRS. 
+              Es fácil, seguro y mucho más rápido que enviar por correo un cheque o una orden de pago. Visite el sitio IRS.gov/Payments para ver todas sus opciones de pago electrónico.
           </p><br/>
         </div>
 
         <div className="my-4">
           <span className="anchor" id="filling-requirements" />
           <h1 className="text-2xl">
-            <a>Filling Requirements</a>
+            <a>Requerimientos de llenado</a>
             <ReturnMenu />
           </h1>
 
@@ -487,182 +348,94 @@ export default () => {
             <br/>
             <span className="anchor" id="do-you-have-to-file" />
             <b>
-              <a>Do You Have To File?</a>
+              <a>¿Tiene que llenarlo usted?</a>
               <ReturnMenu />
             </b><br/>
             <br />
-              Use Chart A, B, or C to see if you must
-              file a return. U.S. citizens who lived in
-              or had income from a U.S. possession
-              should see Pub. 570. Residents of Puerto
-              Rico can use Tax Topic 901 to see if
-              they must file.<br/>
+              Use la tabla A, B o C para ver si usted debe llenar una devolución. Ciudadanos de U. S. A. que han vivido dentro del país o que han tenido ingresos desde U. S. A. deben de ver la publicación 570. Residentes de Puerto Rico pueden usar el tema 901 para ver si ellos deben de llenar una devolución.<br/>
 
-              TIP: Even if you do not otherwise
-              have to file a return, you
-              should file one to get a refund
-              of any federal income tax withheld. You
-              also should file if you are eligible for
-              any of the following credits.<br/>
-              • Earned income credit.<br/>
-              • Additional child tax credit.<br/>
-              • American opportunity credit.<br/>
-              • Credit for federal tax on fuels.<br/>
-              • Premium tax credit.<br/>
-              • Health coverage tax credit.<br/>
-              See Pub. 501 for details. Also see
-              Pub. 501 if you do not have to file but
-              received a Form 1099-B (or substitute
-              statement).<br/>
+              Consejo:Incluso si usted no tiene otro modo que llenar una devolución, usted debe de llenar una para obtener una devolución de cualquier retención de impuestos federal. Usted también debe de llenar una si es elegible para cualquier de los siguientes créditos.<br/>
+              • Crédito por ingresos.<br/>
+              • Crédito por impuesto de hijo adicional.<br/>
+              • Crédito de oportunidad americana.<br/>
+              • Crédito por impuesto federal sobre combustibles.<br/>
+              • Crédito por impuesto sobre las primas.<br/>
+              • Crédito por impuesto sobre seguro médico.<br/>
+              Para mayores detalles vea la publicación 501. También vea la publicación 501 si usted no tiene que llenar el formulario 1099-B pero usted lo recibió (o la declaración substituta).<br/>
 
-              <b>Requirement to reconcile advance payments of the premium tax credit</b><br/>
-              If you, your spouse with whom you are
-              filing a joint return, or a dependent was
-              enrolled in coverage through the Marketplace for 2019 and advance payments
-              of the premium tax credit were made for
-              this coverage, you must file a 2019 return and attach Form 8962. You (or
-              whoever enrolled you) should have received Form 1095-A from the Marketplace with information about your coverage and any advance payments.
-              You must attach Form 8962 even if
-              someone else enrolled you, your spouse,
-              or your dependent. If you are a dependent who is claimed on someone else's
-              2019 return, you do not have to attach
-              Form 8962.<br/>
+              <b>Requerimientos para conciliar pagos por adelantado del crédito de impuestos sobre la prima</b><br/>
+              Si usted, su esposa con la que esta llenando la devolución, o un dependiente que fue inscrito en su cobertura médica a través del mercado del 2019 hizo pagos por adelantado de crédito de impuestos sobre la prima que fueron hechos para esta cobertura, usted debe de llenar una devolución y adjuntar el formulario 8962. Usted (o cualquier que inscribió) debe recibir el formulario 1095-A con información sobre su cobertura y cualquier pago por adelantado del mercado.
+              Usted debe adjuntar el formulario 8962 si alguien más lo inscribió a usted, a su esposa o a algún dependiente. Si usted es un dependiente que esta reclamando en la devolución del 2019 de alguien más, usted no debe de adjuntar el formulario 8962.<br/>
 
-              <b>Exception for certain children under age 19 or full-time students</b><br/>
-              If certain
-              conditions apply, you can elect to include on your return the income of a
-              child who was under age 19 at the end
-              of 2019 or was a full-time student under
-              age 24 at the end of 2019. To do so, use
-              Form 8814. If you make this election,
-              your child doesn't have to file a return.
-              For details, use Tax Topic 553 or see
-              Form 8814.
-              A child born on January 1, 1996, is
-              considered to be age 24 at the end of
-              2019. Do not use Form 8814 for such a
-              child.<br/>
+              <b>Excepción para algunos menores de diecinueve años o estudiantes de tiempo completo</b><br/>
+              Si ciertas condiciones se cumplen, usted puede ser electo para incluir en su devolución de ingresos como un menor de diecinueve años al final del 2019 o como un estudiante menor de veinticuatro años al final del 2019. Para hacerlo, use el formulario 8814. Si usted elige esta opción su hijo no deberá de llenar una devolución.
+              Para mayores detalles use el tema de impuestos 553 o vea el formulario 8814. 
+              Un hijo nacido antes el 1 de enero de 1996 es considerado de veinticuatro años a final del 2019. No use el formulario 8814 para este hijo.<br/>
 
-              <b>Resident aliens</b><br/>
-              These rules also apply
-              if you were a resident alien. Also, you
-              may qualify for certain tax treaty benefits. See Pub. 519 for details.<br/>
+              <b>Extranjeros residentes</b><br/>
+              Estas reglas aplicas también si usted es un extranjero residente. También, si usted es elegible para ciertos tratados de beneficios fiscales. Para detalles vea la publicación 519.<br/>
 
-              <b>Nonresident aliens and dual-status aliens</b><br/>
-              These rules also apply if you were
-              a nonresident alien or a dual-status alien
-              and both of the following apply.<br/>
-              • You were married to a U.S. citizen
-              or resident alien at the end of 2019.<br/>
-              • You elected to be taxed as a resident alien.
-              See Pub. 519 for details.<br/>
+              <b>Extranjeros no residentes y extranjeros con doble estado</b><br/>
+              Esas reglas también aplican si usted es un extranjero no residente o un extranjero con doble estado y aplican las siguientes.<br/>
+              • Usted esta casado con un ciudadano de U. S. A. o con un extranjero residente hasta finales del 2019.<br/>
+              • Usted eligió pagar impuestos como un extranjero residente. Para detalles vea la publicación 519.<br/>
 
-              <b>CAUTION</b><br/>
-              Specific rules apply to determine if you are a resident alien,
-              nonresident alien, or dual-status alien. Most nonresident aliens and
-              dual-status aliens have different filing
-              requirements and may have to file Form
-              1040-NR or Form 1040-NR-EZ. Pub.
-              519 discusses these requirements and
-              other information to help aliens comply
-              with U.S. tax law.<br/>
+              <b>PRECAUCIÓN</b><br/>
+              Aplican reglas especificas para determinar si usted es un residente extranjero, o un extranjero con doble estado. La mayoría de los residentes extranjeros y los de doble estado tienen diferentes requisitos de llenado y pueden tener que llenar el formulario 1040-NR o el formulario 1040-NR-EZ. La publicación 519 explica estos requerimientos y otra información para ayudar a extranjeros a cumplir con las leyes de impuestos de U. <br/>
 
               <br/>
               <span className="anchor" id="when-and-where-should-you-file" />
               <b>
-                <a>When and Where Should You File?</a>
+                <a>¿Cuándo y dónde se debe llenar?</a>
                 <ReturnMenu />
               </b><br/>
 
-              <br/>File Form 1040 or 1040-SR by April 15,
-              2020. If you file after this date, you may
-              have to pay interest and penalties. See
-              Interest and Penalties, later<br/>
+              <br/> Para el 15 de abril del 2020 se llena el formulario 1040 y 1040-RS. Si usted lo llena después de esta fecha, puede tener que pagar intereses y penalidades. Vea después los intereses y penalidades<br/>
 
-              If you were serving in, or in support
-              of, the U.S. Armed Forces in a designated combat zone or contingency operation, you may be able to file later. See
-              Pub. 3 for details.<br/>
+              Si usted esta en servicio, o apoyo, de las fuerzas armadas de Estados Unidos en una área de combate designada o en operaciones de contingencia, usted es apto de llenarlo después. Para detalles vea la publicación 3.<br/>
 
-              If you e-file your return, there is no
-              need to mail it. However, if you choose
-              to mail it, filing instructions and addresses are at the end of these instructions.<br/>
+              Si usted llena eléctricamente su devolución, no será necesario enviarla por correo. Sin embargo, si usted elige enviarla por correo, las instrucciones de llenado y envió se encuentran al final de este instructivo.<br/>
 
               <br/>
               <span className="anchor" id="what-if-you-cannot-file-on-time" />
               <b>
-                <a>What if You Can't File on Time?</a>
+                <a>¿Qué pasa si no lleno a tiempo mi devolución?</a>
                 <ReturnMenu />
               </b><br/>
 
-              <br />You can get an automatic 6-month extension if, no later than the date your return is due, you file Form 4868. For details, see Form 4868. Instead of filing
-              Form 4868, you can apply for an automatic extension by making an electronic
-              payment by the due date of your return.<br />
-              <b>CAUTION</b><br />
-              An automatic 6-month extension to file doesn't extend the
-              time to pay your tax. If you
-              don’t pay your tax by the original due
-              date of your return, you will owe interest
-              on the unpaid tax and may owe penalties. See Form 4868.<br/><br/>
+              <br />Usted puede tener una extensión automática de seis meses si usted llena el formulario 4868 antes de que su devolución sea enviada. Para detalles vea el formulario 4868. 
+              En lugar de llenar el formulario 4868, usted puede aplicar por una extensión automática haciendo un pago electrónico el día de envió de su devolución.<br />
+              <b>PRECAUCIÓN</b><br />
+              El llenado de extensión automática de seis meses no extiende el periodo para el pago de sus impuestos. Si usted no paga sus impuestos en la debida fecha original de su devolución, usted deberá intereses sobre los impuestos no pagados y puede deber penalidades. Vea el formulario 4868.<br/><br/>
 
-              If you are a U.S. citizen or resident
-              alien, you may qualify for an automatic
-              extension of time to file without filing
-              Form 4868. You qualify if, on the due
-              date of your return, you meet one of the
-              following conditions.<br/>
-              • You live outside the United States
-              and Puerto Rico and your main place of
-              business or post of duty is outside the
-              United States and Puerto Rico.<br/>
-              • You are in military or naval service on duty outside the United States and
-              Puerto Rico.<br/><br/>
+              Si usted es un ciudadano de Estados Unidos o un extranjero residente, usted puede ser elegible para una extensión automática de tiempo de llenado sin llenar el formulario 4868. Si usted es elegible, en la debida fecha de su devolución, tiene que cumplir una de las siguientes condiciones.<br/>
+              • Usted vive fuera de los estados unidos o Puerto Rico y su lugar principal de negocios o puesto de deber es fuera de los Estados Unidos y Puerto Rico.<br/>
+              • Usted esta en servicio en la milicia o servicio naval fuera de los Estados Unidos y Puerto Rico.<br/><br/>
 
-              This extension gives you an extra 2
-              months to file and pay the tax, but interest will be charged from the original due
-              date of the return on any unpaid tax.
-              You must include a statement showing
-              that you meet the requirements. If you
-              are still unable to file your return by the
-              end of the 2-month period, you can get
-              an additional 4 months if, no later than
-              June 15, 2020, you file Form 4868. This
-              4-month extension of time to file doesn't 
-              extend the time to pay your tax. See
-              Form 4868.<br/>
+              Esta extensión le da dos meses extra para llenar y pagar sus impuestos, pero pueden ser cargados intereses sobre la fecha original de envió para la devolución de cualquier impuesto no pagado.
+              Usted debe incluir informes mostrando que cumple con los requisitos. Si después del periodo de dos meses usted sigue siendo incapaz de llenar su devolución, usted puede obtener cuatro meses adicionales si llena el formulario 4868 antes del 15 de junio del 2020. Esta extensión de cuatro meses de tiempo para el llenado no extiende el tiempo de pago de sus impuestos. Vea el formulario 4868.<br/>
 
               <br/>
               <span className="anchor" id="private-delivery-services" />
               <b>
-                <a>Private Delivery Services</a>
+                <a>Servicios de envió privado</a>
                 <ReturnMenu />
               </b><br/>
 
-              <br/>If you choose to mail your return, you
-              can use certain private delivery services
-              designated by the IRS to meet the "timely mailing treated as timely filing/
-              paying" rule for tax returns and payments. These private delivery services
-              include only the following.<br />
+              <br/> Si usted elige enviar por correo su devolución, usted puede usar determinados servicios de entrega privado asignados por la IRS para cumplir con la regla del "envió puntual tratado como llenado/pagado en forma" para devolución y pago de impuesto. Esos servicios de entrega privado incluyen solo los siguientes.<br />
               • DHL Express 9:00, DHL Express
-              10:30, DHL Express 12:00, DHL Ex
-              press Worldwide, DHL Express Envelope, DHL Import Express 10:30, DHL
-              Import Express 12:00, and DHL Import
-              Express Worldwide.<br />
-              • UPS Next Day Air Early A.M.,
-              UPS Next Day Air, UPS Next Day Air
-              Saver, UPS 2nd Day Air, UPS 2nd Day
-              Air A.M., UPS Worldwide Express
-              Plus, and UPS Worldwide Express.<br />
-              • FedEx First Overnight, FedEx Priority Overnight, FedEx Standard Overnight, FedEx 2 Day, FedEx International
-              Next Flight Out, FedEx International Priority, FedEx International First, and
-              FedEx International Economy.<br /><br />
+              10:30, DHL Express 12:00, DHL Express mundial, DHL Sobre Express, DHL Importación Express 10:30, DHL
+              Importación Express 12:00, y DHL Importación
+              Express Mundial.<br />
+              • UPS Aero Temprano A.M. del día siguiente,
+              UPS Aero Día Siguiente, UPS Económico Aero Día SiguienteNext, UPS Aero 2do día, UPS Aero 2do Día A.M., UPS Express Mundial
+              Plus, y UPS Express Mundial.<br />
+              • FedEx Primera noche siguiente, FedEx Prioridad Noche siguiente, FedEx Noche Siguiente Estándar, FedEx 2 días, FedEx Siguiente vuelo internacional, FedEx Prioridad Internacional, FedEx Primero Internacional, y
+              FedEx Económico Internacional.<br /><br />
 
-              To check for any updates to the list of
-              designated private delivery services, go
-              to IRS.gov/PDS. For the IRS mailing address to use if you’re using a private delivery service, go to IRS.gov/
-              PDSStreetAddresses.<br />
+              Para revisar cualquier actualización de la lista de proveedores de servicio de envíos privados designados, visite IRS.gov/PDS. Para obtener la dirección de correo de la IRS si usted está sudando un servicio de envíos privado visite el sitio  IRS.gov.PDSStreetAddresses.<br />
               
-              The private delivery service can tell
-              you how to get written proof of the mailing date.<br />
+              El servicio privado de entrega puede decirle como obtener una prueba por escrito de la fecha de envió.<br />
 
           </p><br/>
         </div>
